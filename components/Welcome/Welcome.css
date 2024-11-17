@@ -1,0 +1,42 @@
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 3rem;
+  align-items: center;
+}
+
+.welcome img {
+  border-radius: 16rem;
+  border: 3px solid #474306;
+  width: 33%;
+}
+
+.welcome p {
+  font-size: 30px;
+  color: var(--main-blue);
+  font-weight: 500;
+}
+
+.welcome h1 {
+  font-size: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 99%;
+  color: var(--main-blue);
+  line-height: 100%;
+}
+
+.welcome button {
+  border: 1px solid var(--main-green);
+  border-radius: 0.3rem;
+  color: var(--main-green);
+  font-size: 20px;
+  height: 3.05rem;
+  width: 7.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: var(--main-yellow);
+  margin-top: 1.5rem;
+}

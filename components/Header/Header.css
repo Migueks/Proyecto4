@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  height: 5rem;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header h1 {
+  font-size: 24px;
+  color: var(--main-blue);
+  font-weight: 600;
+}
+
+header .links {
+  display: flex;
+  gap: 3.7rem;
+}
+
+header .links li a {
+  color: var(--main-blue);
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+header .links li a:hover {
+  color: orange;
+}
+
+header .images {
+  display: flex;
+  gap: 1rem;
+}
