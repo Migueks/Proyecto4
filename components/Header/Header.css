@@ -12,7 +12,7 @@ header a {
 }
 
 header h1 {
-  font-size: 24px;
+  font-size: 28px;
   color: var(--main-blue);
   font-weight: 600;
 }
@@ -26,6 +26,7 @@ header .links li a {
   color: var(--main-blue);
   text-decoration: none;
   transition: 0.5s ease;
+  font-size: 18px;
 }
 
 header .links li a:hover {

@@ -1,0 +1,23 @@
+.button {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.button button {
+  width: 14rem;
+  height: 4rem;
+  border: 1px solid var(--main-green);
+  border-radius: 0.5rem;
+  font-size: 23px;
+  font-weight: 500;
+  color: var(--main-green);
+  background-color: var(--main-yellow);
+  cursor: pointer;
+}
+
+.button button:hover {
+  color: var(--main-yellow);
+  background-color: var(--main-green);
+}

@@ -3,24 +3,24 @@
   justify-content: space-between;
   width: 80%;
   margin: auto;
-  margin-top: 3rem;
+  margin-top: 8rem;
   align-items: center;
 }
 
 .welcome img {
-  border-radius: 16rem;
+  border-radius: 20rem;
   border: 3px solid #474306;
-  width: 33%;
+  width: 35%;
 }
 
 .welcome p {
-  font-size: 30px;
+  font-size: 38px;
   color: var(--main-blue);
   font-weight: 500;
 }
 
 .welcome h1 {
-  font-size: 100px;
+  font-size: 110px;
   display: flex;
   flex-wrap: wrap;
   width: 99%;
@@ -30,13 +30,31 @@
 
 .welcome button {
   border: 1px solid var(--main-green);
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
   color: var(--main-green);
-  font-size: 20px;
-  height: 3.05rem;
-  width: 7.9rem;
+  font-size: 23px;
+  height: 4rem;
+  width: 9rem;
   font-weight: 500;
   cursor: pointer;
   background-color: var(--main-yellow);
   margin-top: 1.5rem;
+}
+
+.welcome button:hover {
+  color: var(--main-yellow);
+  background-color: var(--main-green);
+}
+
+@keyframes vueltaEje {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.welcome img:hover {
+  animation: vueltaEje 1.5s linear;
 }
