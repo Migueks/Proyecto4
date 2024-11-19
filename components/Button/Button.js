@@ -6,6 +6,7 @@ const Button = () => {
   return `
     <div class="button">
         <button id="button">Show Experience</button>
+        <div>Hola</div>
     </div>
     `;
 };
