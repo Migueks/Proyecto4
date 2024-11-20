@@ -1,0 +1,39 @@
+.experience {
+  color: var(--main-blue);
+  width: 76%;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.experience li {
+  display: flex;
+  align-self: flex-start;
+  position: relative;
+}
+
+.experience .bullet {
+  position: relative;
+  margin-right: 20px;
+}
+
+.experience h3 {
+  font-size: 24px;
+}
+
+.experience h3::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  font-weight: 900;
+  color: var(--main-blue);
+}
+
+.experience h4 {
+  font-size: 22px;
+}
+
+.experience p {
+  font-size: 20px;
+}

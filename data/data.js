@@ -7,15 +7,15 @@ const data = {
     },
     {
       name: "About",
-      place: "#",
+      place: "#about",
     },
     {
       name: "Work",
-      place: "#",
+      place: "#button",
     },
     {
       name: "Education",
-      place: "#",
+      place: "#button",
     },
     {
       name: "Contact",
@@ -56,44 +56,51 @@ const data = {
       year: "September 2024 - Current",
       title: "Técnico Superior En Desarrollo De Aplicaciones Web",
       place: "ThePower Academy",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     },
     {
       year: "June 2024 - Current",
       title: "Máster Full Stack Web",
       place: "ThePower Academy",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     },
     {
       year: "April 2024 - June 2024",
       title: "Desarrollo de Aplicaciones con Tecnología Web",
       place: "Academia Integral",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     },
     {
       year: "September 2023 - April 2024",
       title: "Full Stack Web Developer Bootcamp",
       place: "Codespace Academy",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     },
   ],
-  experiencieArray: [
+  experienceArray: [
     {
       year: "2023 - Current",
-      title: "FrontEnd Developer",
+      title: "FrontEnd Web Developer",
       bussiness: "BBVA",
       place: "Málaga",
-      description: "---",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.",
     },
     {
       year: "2022 - 2023",
       title: "Web Design and Programmer",
       bussiness: "Besoccer",
       place: "Málaga",
-      description: "---",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.",
     },
     {
       year: "2021 - 2022",
       title: "Web Developer Practices",
       bussiness: "Freepik",
       place: "Málaga",
-      description: "---",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.",
     },
   ],
 };
