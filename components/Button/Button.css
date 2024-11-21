@@ -24,3 +24,11 @@
   color: var(--main-yellow);
   background-color: var(--main-green);
 }
+
+.button #content {
+  display: block;
+}
+
+.button #content2 {
+  display: none;
+}

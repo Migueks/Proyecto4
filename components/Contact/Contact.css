@@ -1,0 +1,46 @@
+.contact {
+  width: 80%;
+  margin: auto;
+  margin-top: 9rem;
+}
+
+.contact h2 {
+  font-size: 100px;
+  color: var(--main-yellow);
+  font-weight: 700;
+  -webkit-text-stroke: 2px var(--main-green);
+}
+
+.contact .section {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  color: var(--main-blue);
+  align-items: center;
+}
+
+.contact .section div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact .section .email {
+  margin-top: 2rem;
+}
+
+.contact .section .email a {
+  text-decoration: none;
+  color: var(--main-blue);
+}
+
+.contact img {
+  width: 35%;
+  /* object-fit: cover; */
+}
+
+.contact p {
+  font-size: 20px;
+  text-align: justify;
+}

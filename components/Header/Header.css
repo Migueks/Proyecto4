@@ -5,6 +5,9 @@ header {
   margin: auto;
   align-items: center;
   height: 5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 header a {
@@ -36,4 +39,13 @@ header .links li a:hover {
 header .images {
   display: flex;
   gap: 1rem;
+}
+
+hr {
+  width: 100%;
+  color: var(--main-blue);
+  border: 1px solid var(--main-blue);
+  position: sticky;
+  top: 5rem;
+  z-index: 1;
 }

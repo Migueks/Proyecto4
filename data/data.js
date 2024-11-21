@@ -2,24 +2,24 @@ const data = {
   title: "Miguel López",
   links: [
     {
-      name: "Home",
-      place: "/",
-    },
-    {
       name: "About",
       place: "#about",
     },
     {
-      name: "Work",
-      place: "#button",
+      name: "Experience",
+      place: "#change-button",
     },
     {
       name: "Education",
-      place: "#button",
+      place: "#change-button",
+    },
+    {
+      name: "Proyects",
+      place: "#work",
     },
     {
       name: "Contact",
-      place: "#",
+      place: "#contact",
     },
   ],
   imgs: [
@@ -103,6 +103,46 @@ const data = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.",
     },
   ],
+  work: "work.",
+  description:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.",
+  projects: [
+    {
+      link: "https://github.com/",
+      src: "../img/Proyecto1.jpg",
+      alt: "Portátil junto a café y móvil",
+      time: "November 24, 2022",
+      title: "E-commerce Platform",
+      paragraph:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit.",
+    },
+    {
+      link: "https://github.com/",
+      src: "../img/Proyecto2.jpg",
+      alt: "Lápices, clips y chinchetas",
+      time: "February 7, 2023",
+      title: "Newspaper Website",
+      paragraph:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit.",
+    },
+    {
+      link: "https://github.com/",
+      src: "../img/Proyecto3.jpg",
+      alt: "Ipad puesto en trípode",
+      time: "August 14, 2024",
+      title: "Bussiness Database",
+      paragraph:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit.",
+    },
+  ],
+  contact: "Contact.",
+  contact_src: "../img/Contacto.jpg",
+  contact_alt: "Pluma junto a sobre",
+  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit. incididunt ut labore et dolore.",
+  email: "lhlmiguel@gmail.com",
+  phone: "(+34) 965 43 27 86",
+  address: "Calle Especería Número 28 7ºA",
+  schedule: "Monday to Friday: 09:00 AM - 06:00 PM",
 };
 
 export default data;

@@ -33,6 +33,7 @@ const Header = () => {
             </ul>
         </nav>
     </header>
+     <hr />
     `;
 };
 
