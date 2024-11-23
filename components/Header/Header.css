@@ -8,15 +8,17 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
+  background-color: var(--secondary-yellow);
 }
 
 header a {
   text-decoration: none;
+  color: inherit;
+  transition: 0.5s ease;
 }
 
 header h1 {
   font-size: 28px;
-  color: var(--main-blue);
   font-weight: 600;
 }
 
@@ -28,6 +30,7 @@ header .links {
 header .links li a {
   color: var(--main-blue);
   text-decoration: none;
+  color: inherit;
   transition: 0.5s ease;
   font-size: 18px;
 }
@@ -41,11 +44,47 @@ header .images {
   gap: 1rem;
 }
 
+header .images li a #logo {
+  fill: red; /* Cambia el color del interior del SVG */
+  stroke: blue; /* Cambia el color del borde */
+  stroke-width: 2;
+  color: red;
+}
+
 hr {
   width: 100%;
-  color: var(--main-blue);
-  border: 1px solid var(--main-blue);
+  border: 1px solid;
   position: sticky;
   top: 5rem;
   z-index: 1;
+}
+
+header .themeButton {
+  border: none;
+  color: inherit;
+  font-size: 24px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: 0.5s;
+  background-color: transparent;
+}
+
+header .themeButton:hover {
+  color: orange;
+}
+
+header #logo1 {
+  display: block;
+}
+
+header #logo2 {
+  display: none;
+}
+
+header .logo1 {
+  display: block;
+}
+
+header .logo2 {
+  display: none;
 }

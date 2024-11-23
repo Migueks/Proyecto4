@@ -22,19 +22,24 @@ const data = {
       place: "#contact",
     },
   ],
+  themeDay: "☀",
+  themeNight: "☾",
   imgs: [
     {
       src: "../svg/linkedin.svg",
+      src2: "../svg/linkedin2.svg",
       alt: "Logo Linkedin",
       link: "https://www.linkedin.com/feed/",
     },
     {
       src: "../svg/github.svg",
+      src2: "../svg/github2.svg",
       alt: "Logo GitHub",
       link: "https://github.com/",
     },
     {
       src: "../svg/x.svg",
+      src2: "../svg/x2.svg",
       alt: "Logo X",
       link: "https://twitter.com/home",
     },
@@ -103,7 +108,7 @@ const data = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.",
     },
   ],
-  work: "work.",
+  work: "projects.",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.",
   projects: [
@@ -135,7 +140,7 @@ const data = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit.",
     },
   ],
-  contact: "Contact.",
+  contact: "contact.",
   contact_src: "../img/Contacto.jpg",
   contact_alt: "Pluma junto a sobre",
   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit. incididunt ut labore et dolore.",
@@ -143,6 +148,7 @@ const data = {
   phone: "(+34) 965 43 27 86",
   address: "Calle Especería Número 28 7ºA",
   schedule: "Monday to Friday: 09:00 AM - 06:00 PM",
+  copyright: "© 2024 Miguel López - All rights reserved",
 };
 
 export default data;
