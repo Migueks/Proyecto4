@@ -1,5 +1,4 @@
 .experience {
-  color: var(--main-blue);
   width: 76%;
   margin-left: auto;
   display: flex;
@@ -27,7 +26,6 @@
   position: absolute;
   left: 0;
   font-weight: 900;
-  color: var(--main-blue);
 }
 
 .experience h4 {

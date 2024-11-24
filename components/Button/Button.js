@@ -7,7 +7,7 @@ const { education, experiencie } = data;
 const Button = () => {
   return `
     <div class="button">
-        <button id="change-button">${education}</button>
+        <button id="buttonChange" class="change-button">${education}</button>
         <div id="content">${Experience()}</div>
         <div id="content2">${Education()}</div>
     </div>
@@ -15,7 +15,7 @@ const Button = () => {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-  const button = document.getElementById("change-button");
+  const button = document.getElementById("buttonChange");
   const contentExperience = document.getElementById("content");
   const contentEducation = document.getElementById("content2");
 

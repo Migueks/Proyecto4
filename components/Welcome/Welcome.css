@@ -15,7 +15,6 @@
 
 .welcome p {
   font-size: 38px;
-  color: var(--main-blue);
   font-weight: 500;
 }
 
@@ -24,12 +23,11 @@
   display: flex;
   flex-wrap: wrap;
   width: 99%;
-  color: var(--main-blue);
   line-height: 100%;
 }
 
 .welcome button {
-  border: 1px solid var(--main-green);
+  border: 2px solid var(--main-green);
   border-radius: 0.5rem;
   color: var(--main-green);
   font-size: 23px;

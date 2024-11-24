@@ -10,7 +10,7 @@ const Welcome = () => {
                 <h1>${profession}</h1>
                 <p>${based}</p>
                 <a href="#about">
-                    <button>${resume}</button>                
+                    <button id="change-button" class="change-button">${resume}</button>                
                 </a>
             </section>
             <img src="${avatar.src}" alt="${avatar.alt}"></img>

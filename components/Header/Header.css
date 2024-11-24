@@ -44,13 +44,6 @@ header .images {
   gap: 1rem;
 }
 
-header .images li a #logo {
-  fill: red; /* Cambia el color del interior del SVG */
-  stroke: blue; /* Cambia el color del borde */
-  stroke-width: 2;
-  color: red;
-}
-
 hr {
   width: 100%;
   border: 1px solid;
@@ -71,14 +64,6 @@ header .themeButton {
 
 header .themeButton:hover {
   color: orange;
-}
-
-header #logo1 {
-  display: block;
-}
-
-header #logo2 {
-  display: none;
 }
 
 header .logo1 {

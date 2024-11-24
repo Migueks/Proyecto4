@@ -15,7 +15,6 @@
   display: flex;
   flex-direction: row;
   gap: 5%;
-  color: var(--main-blue);
   align-items: center;
 }
 
@@ -32,12 +31,12 @@
 
 .contact .section .email a {
   text-decoration: none;
-  color: var(--main-blue);
+  color: inherit;
 }
 
 .contact img {
   width: 35%;
-  /* object-fit: cover; */
+  border-radius: 1rem;
 }
 
 .contact p {

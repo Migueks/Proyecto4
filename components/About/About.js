@@ -5,7 +5,7 @@ const { about, me } = data;
 const Welcome = () => {
   return `
         <div class="about" id="about">
-            <h2>${about}</h2>
+            <h2 class="titleNight">${about}</h2>
             <p>${me}</p>
         </div>
     `;

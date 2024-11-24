@@ -14,7 +14,7 @@ const {
 const Contact = () => {
   return `
         <section class="contact" id="contact">
-            <h2>${contact}</h2>
+            <h2 class="titleNight">${contact}</h2>
             <div class="section">
                 <img src="${contact_src}" alt="${contact_alt}"></img>
                 <div>

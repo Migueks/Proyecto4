@@ -6,30 +6,45 @@ export const changeTheme = () => {
   const appDiv = document.getElementById("app");
   const headerTheme = document.getElementById("header");
   const themeButton = document.getElementById("themeButton");
+  const buttonTheme = document.querySelectorAll(".change-button");
+  const titleTheme = document.querySelectorAll(".titleNight");
   themeButton.addEventListener("click", () => {
     appDiv.classList.toggle("light");
     headerTheme.classList.toggle("light");
+    buttonTheme.forEach((button) => {
+      button.classList.toggle("buttonLight");
+    });
+    titleTheme.forEach((title) => {
+      title.classList.toggle("titleLight");
+    });
     changeThext();
   });
 };
 
 export const changeThext = () => {
   const themeButton = document.getElementById("themeButton");
-  const logo1 = document.getElementById("logo1");
-  const logo2 = document.getElementById("logo2");
+  const logos1 = document.querySelectorAll(".logo1");
+  const logos2 = document.querySelectorAll(".logo2");
+
   if (themeButton.innerHTML === themeNight) {
     themeButton.innerHTML = themeDay;
   } else {
     themeButton.innerHTML = themeNight;
   }
 
-  if (logo1.style.display === "block" || logo1.style.display === "") {
-    logo1.style.display = "none";
-    logo2.style.display = "block";
-  } else {
-    logo1.style.display = "block";
-    logo2.style.display = "none";
-  }
+  logos1.forEach((logo) => {
+    logo.style.display =
+      logo.style.display === "block" || logo.style.display === ""
+        ? "none"
+        : "block";
+  });
+
+  logos2.forEach((logo) => {
+    logo.style.display =
+      logo.style.display === "none" || logo.style.display === ""
+        ? "block"
+        : "none";
+  });
 };
 
 export const Header = () => {
@@ -55,9 +70,11 @@ export const Header = () => {
                 ${imgs
                   .map(
                     (img) => `
-                    <li id="li">
-                        <a href="${img.link}" target="_blank"><img src="${img.src}" alt="${img.alt}" id="logo1" class="logo1"></img></a>
-                        <a href="${img.link}" target="_blank"><img src="${img.src2}" alt="${img.alt}" id="logo2" class="logo2"></img></a>
+                    <li class="logo-container">
+                        <a href="${img.link}" target="_blank">
+                            <img src="${img.src}" alt="${img.alt}" class="logo1"></img>
+                            <img src="${img.src2}" alt="${img.alt}" class="logo2"></img>
+                        </a>
                     </li>
                   `
                   )
@@ -65,6 +82,6 @@ export const Header = () => {
             </ul>
         </nav>
     </header>
-     <hr />
+    <hr />
     `;
 };

@@ -11,7 +11,7 @@
 .button button {
   width: 14rem;
   height: 4rem;
-  border: 1px solid var(--main-green);
+  border: 2px solid var(--main-green);
   border-radius: 0.5rem;
   font-size: 23px;
   font-weight: 500;

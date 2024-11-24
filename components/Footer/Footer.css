@@ -1,5 +1,5 @@
 footer {
-  border-top: 2px solid var(--main-blue);
+  border-top: 2px solid;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,7 +8,6 @@ footer {
 }
 
 footer p {
-  color: var(--main-blue);
   font-size: 18px;
   font-weight: 700;
 }
