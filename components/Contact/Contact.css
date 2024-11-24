@@ -43,3 +43,43 @@
   font-size: 20px;
   text-align: justify;
 }
+
+@media (max-width: 770px) {
+  .contact {
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+  }
+
+  .contact h2 {
+    font-size: 75px;
+  }
+
+  .contact .section div {
+    width: 100%;
+  }
+
+  .contact img {
+    display: none;
+  }
+
+  .contact p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 771px) and (max-width: 1300px) {
+  .contact {
+    width: 85%;
+    margin: auto;
+    margin-top: 10rem;
+  }
+
+  .contact .section div {
+    width: 100%;
+  }
+
+  .contact img {
+    display: none;
+  }
+}

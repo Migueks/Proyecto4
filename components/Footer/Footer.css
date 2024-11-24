@@ -11,3 +11,16 @@ footer p {
   font-size: 18px;
   font-weight: 700;
 }
+
+@media (max-width: 770px) {
+  footer {
+    width: 100%;
+    margin: auto;
+    margin-top: 4rem;
+  }
+
+  footer p {
+    font-size: 14px;
+    font-weight: 700;
+  }
+}

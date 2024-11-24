@@ -16,3 +16,41 @@
   width: 77%;
   text-align: justify;
 }
+
+@media (max-width: 770px) {
+  .about {
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+  }
+
+  .about h2 {
+    font-size: 75px;
+  }
+
+  .about p {
+    font-size: 14px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 771px) and (max-width: 1300px) {
+  .about {
+    width: 85%;
+    margin: auto;
+    margin-top: 7rem;
+  }
+
+  .about h2 {
+    font-size: 100px;
+    color: var(--main-yellow);
+    font-weight: 700;
+    -webkit-text-stroke: 2px var(--main-green);
+  }
+
+  .about p {
+    font-size: 20px;
+    width: 80%;
+    text-align: justify;
+  }
+}

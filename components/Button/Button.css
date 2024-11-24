@@ -32,3 +32,26 @@
 .button #content2 {
   display: none;
 }
+
+@media (max-width: 770px) {
+  .button {
+    width: 95%;
+    margin: auto;
+    margin-top: 4rem;
+    gap: 2.5rem;
+  }
+
+  .button button {
+    width: 8.7rem;
+    height: 3rem;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 771px) and (max-width: 1300px) {
+  .button {
+    width: 85%;
+    margin-top: 4rem;
+    gap: 5rem;
+  }
+}

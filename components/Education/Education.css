@@ -26,6 +26,7 @@
   position: absolute;
   left: 0;
   font-weight: 900;
+  margin: 0;
 }
 
 .education h4 {
@@ -36,4 +37,24 @@
   font-size: 20px;
   margin-top: 0.5rem;
   text-align: justify;
+}
+
+@media (max-width: 770px) {
+  .education {
+    width: 90%;
+    gap: 2rem;
+    margin: auto;
+  }
+
+  .education h3 {
+    font-size: 18px;
+  }
+
+  .education h4 {
+    font-size: 16px;
+  }
+
+  .education p {
+    font-size: 14px;
+  }
 }
