@@ -2,11 +2,11 @@ import "./Button.css";
 import data from "../../data/data";
 import Education from "../Education/Education";
 import Experience from "../Experience/Experience";
-const { education, experiencie } = data;
+const { education, experience } = data;
 
 const Button = () => {
   return `
-    <div class="button">
+    <div class="button" id="experience-education">
         <button id="buttonChange" class="change-button">${education}</button>
         <div id="content">${Experience()}</div>
         <div id="content2">${Education()}</div>
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ) {
       contentExperience.style.display = "none";
       contentEducation.style.display = "block";
-      button.innerHTML = experiencie;
+      button.innerHTML = experience;
     } else {
       contentExperience.style.display = "block";
       contentEducation.style.display = "none";

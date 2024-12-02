@@ -1,6 +1,10 @@
 import "./Header.css";
 import data from "../../data/data";
-const { title, links, imgs, themeDay, themeNight } = data;
+const { title, links, imgs, themeDay, themeNight, education, experience } =
+  data;
+import Education from "../Education/Education";
+import Experience from "../Experience/Experience";
+import Button from "../Button/Button";
 
 export const changeTheme = () => {
   const appDiv = document.getElementById("app");
@@ -57,7 +61,11 @@ export const Header = () => {
                   .map(
                     (link) => `
                     <li>
-                        <a href="${link.place}">${link.name}</a>
+                        <a href="${
+                          link.place
+                        }" id="${link.name.toLowerCase()}-anchor">${
+                      link.name
+                    }</a>
                     </li>    
                 `
                   )
@@ -85,3 +93,23 @@ export const Header = () => {
     <hr />
     `;
 };
+
+document.addEventListener("DOMContentLoaded", () => {
+  const experienceAnchor = document.getElementById("experience-anchor");
+  const educationAnchor = document.getElementById("education-anchor");
+  const button = document.getElementById("buttonChange");
+  const contentExperience = document.getElementById("content");
+  const contentEducation = document.getElementById("content2");
+
+  experienceAnchor.addEventListener("click", () => {
+    contentExperience.style.display = "block";
+    contentEducation.style.display = "none";
+    button.innerHTML = education;
+  });
+
+  educationAnchor.addEventListener("click", () => {
+    contentExperience.style.display = "none";
+    contentEducation.style.display = "block";
+    button.innerHTML = experience;
+  });
+});
